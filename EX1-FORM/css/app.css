@@ -1,0 +1,39 @@
+.container {
+    width: 200px;
+    margin: auto;
+    padding: 10px;
+    
+}
+input, select {
+    margin: 10px 0;
+}
+input:not([type=radio]) {
+    width: 100%;
+   
+}
+button {
+    cursor: pointer;
+}
+.container-item {
+    width: 400px;
+    margin: auto;
+    background: teal;
+    padding: 10px;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+background: #000;
+}
+
+li {
+   
+    color: #fff;
+    padding: 10px;
+
+    display: flex;
+    justify-content: space-between;
+}
+select {
+    width: 100%;
+}
